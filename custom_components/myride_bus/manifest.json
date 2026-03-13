@@ -1,0 +1,14 @@
+{
+  "domain": "myride_bus",
+  "name": "MyRide Bus Tracker",
+  "version": "1.0.0",
+  "documentation": "https://github.com/YOURNAME/ha-myride-bus",
+  "requirements": [
+    "aiohttp",
+    "websockets",
+    "signalrcore",
+    "pyjwt"
+  ],
+  "config_flow": true,
+  "iot_class": "cloud_push"
+}

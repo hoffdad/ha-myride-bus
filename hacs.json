@@ -1,0 +1,8 @@
+{
+  "name": "MyRide Bus Tracker",
+  "content_in_root": false,
+  "domain": "myride_bus",
+  "country": "US",
+  "homeassistant": "2024.6.0",
+  "iot_class": "cloud_push"
+}
