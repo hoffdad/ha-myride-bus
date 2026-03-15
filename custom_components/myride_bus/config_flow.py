@@ -18,10 +18,10 @@ class MyRideConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
             )
 
             return self.async_create_entry(
-                title="MyRide Bus",
+                title="MyRide K-12 Bus Tracker",
                 data={
                     "username": user_input["username"],
-                    "token": token
+                    "password": user_input["password"]
                 }
             )
 

@@ -1,6 +1,6 @@
 {
   "domain": "myride_bus",
-  "name": "MyRide Bus Tracker",
+  "name": "MyRide K-12 Bus Tracker",
   "version": "1.0.0",
   "documentation": "https://github.com/YOURNAME/ha-myride-bus",
   "requirements": [
