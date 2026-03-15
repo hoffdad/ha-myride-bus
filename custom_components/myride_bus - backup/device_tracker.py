@@ -13,7 +13,6 @@ class MyRideBusTracker(CoordinatorEntity, TrackerEntity):
     """Tracker for a single bus."""
 
     _attr_has_entity_name = True
-    _attr_icon = "mdi:bus"
 
     def __init__(self, coordinator, bus_id):
         super().__init__(coordinator)
@@ -24,8 +23,8 @@ class MyRideBusTracker(CoordinatorEntity, TrackerEntity):
         self._attr_device_info = DeviceInfo(
             identifiers={(DOMAIN, f"bus_{bus_id}")},
             name=f"MyRide Bus {bus_id}",
-            manufacturer="MyRide K-12",
-            model="Bus",
+            manufacturer="Tyler Technologies",
+            model="MyRide Bus",
         )
 
     @property
